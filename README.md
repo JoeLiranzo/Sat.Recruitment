@@ -1,11 +1,22 @@
 # SAT Recruitment
 
-El objetivo de esta prueba es refactorizar el código de este proyecto.
-Se puede realizar cualquier cambio que considere necesario en el código y en los test.
+Se separó el código en las siguientes capas:
 
+-Business
 
-## Requisitos 
+-Controllers
 
-- Todos los test deben pasar.
-- El código debe seguir los principios de la programación orientada a objetos (SOLID, DRY, etc...).
-- El código resultante debe ser mantenible y extensible.
+-Data
+
+-Enums
+
+-Files
+
+-Models
+
+-Validations
+
+*Se realizó la implementación correcta de todos los métodos de manera asincrona.
+
+*Se agregó un test adicional para realizar las validaciones del tipo de usuario.
+
